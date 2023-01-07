@@ -2,6 +2,9 @@
     margin: 0;
     /* font-family: 'Open Sans', sans-serif; */
 }
+.section{
+    margin-top: 130px;
+}
 
 .header{
     width: 1600px;
@@ -55,4 +58,111 @@ color: #444343;
     border-radius: 5px;
     border: 0;
     
+}
+.first-sec{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.pre-failure{
+    display: flex;
+    
+
+}
+.about-failure{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    top: 1178px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.failure-title{
+    width: 288px;
+    height: 94px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+.failure-description{
+    width: 416px;
+    height: 104px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+img{
+    width: 569px;
+    height: 700px;
+}
+
+.first-sec ul{
+    width: 315px;
+    height: 26px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    text-align: left;
+    list-style: none;
+}
+    
+      ul li:before {
+        
+        content: '✓';
+        margin-right: 10px;
+        color: #16D887;
+
+        
+      }
+.plan{
+        
+        
+        padding: 0px 230px;
+        text-align: center;
+        width: 1141px;
+        height: 299px;
+        
+    }
+.planning-skills-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+plan-title{
+    text-align:center;
+    width: 179px;
+    height: 47px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.skill-plan img{
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 10px;
+    
+
+}
+.skill-plan-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+
 }
