@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    /* font-family: 'Open Sans', sans-serif; */
 }
 .section{
     margin-top: 130px;
@@ -14,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Banner Title */
+/* Banner TSection */
 .banner-title{
     
 position: absolute;
@@ -131,12 +130,14 @@ img{
         width: 1141px;
         height: 299px;
         
+        
     }
 .planning-skills-container{
     display: flex;
     gap: 50px;
     margin-top: 50px;
-    padding-left: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
 }
 plan-title{
     text-align:center;
@@ -159,10 +160,146 @@ plan-title{
 .skill-plan-title{
     font-family: 'Work Sans';
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
     text-align: center;
     color: #151414;
     margin-bottom: 16px;
+    
 
+}
+.container{
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    color: #fff;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2216px;
+    
+}
+.container-title-button{
+
+   
+    width: 400px;
+    height: 582px;
+    margin-top: 60px;
+    margin-left: 64px;
+    margin-bottom: 60px;
+    font-family: 'Work Sans';
+    line-height: 50px;
+
+    
+}
+.btn-second{
+    width: 160px;
+    height: 64px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    color: #F15B22;
+}
+
+.contact-future{
+    display: flex;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2646.3px;
+    background: #151414;
+    padding-left: 230px;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    gap: 331px;
+
+}
+.contact-future img{
+    width: 47px;
+    height: 46px;
+
+
+}
+.contact-future a{
+    
+        text-decoration: none;
+  
+}
+.email-no{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.phone-no{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.future-section-title{
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2776.3px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+.contact-section-description{
+    width: 485px;
+    height: 78px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+.subscribe-section-title{
+    width: 123px;
+    height: 29px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+    
+}
+.mail-section{
+    width: 325px;
+    height: 64px;
+    background: #151414;
+}
+
+
+input{
+    width: 146px;
+    height: 21px;
+    left: 1067px;
+    top: 2857.3px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3; 
+    margin-bottom: 16px;
+    
 }
